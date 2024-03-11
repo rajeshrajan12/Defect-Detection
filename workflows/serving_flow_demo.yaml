@@ -11,11 +11,6 @@ metadata:
     scenarios.ai.sap.com/id: "image-seg-tutorial"
     executables.ai.sap.com/id: "demo-seg-infer"
     ai.sap.com/version: "1.0.0"
-spec:
-  inputs:
-    parameters: []
-    artifacts:
-      - name: 
   template:
     apiVersion: "serving.kserve.io/v1beta1"
     metadata:
