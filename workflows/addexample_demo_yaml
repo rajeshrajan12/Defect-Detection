@@ -5,7 +5,7 @@ metadata:
   annotations:
     scenarios.ai.sap.com/description: "SAP AI Core tutorial scenario"
     scenarios.ai.sap.com/name: "image-seg-tutorial-scenario"
-    executables.ai.sap.com/description: "Inference executable for aicore demo"
+    executables.ai.sap.com/description: "Inference executable for add xample demo"
     executables.ai.sap.com/name: "add-example-infer-exec"
   labels:
     scenarios.ai.sap.com/id: "image-seg-tutorial"
