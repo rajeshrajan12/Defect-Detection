@@ -33,7 +33,7 @@ metadata:
         maxReplicas: 5
         containers:
         - name: kserve-container
-          image: "docker.io/rajeshrajan/demo-seg-infer:demo1"
+          image: "i557923.common.repositories.cloud.sap/demo:v1"
           ports:
             - containerPort: 9001
               protocol: TCP
