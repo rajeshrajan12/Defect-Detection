@@ -37,3 +37,6 @@ metadata:
           ports:
             - containerPort: 9001
               protocol: TCP
+          env:
+            - name: STORAGE_URI
+              value: "{{inputs.artifacts.imagesegmodel}}"
