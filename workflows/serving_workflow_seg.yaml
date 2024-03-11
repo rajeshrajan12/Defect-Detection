@@ -33,7 +33,7 @@ spec:
         maxReplicas: 5
         containers:
         - name: kserve-container
-          image: "docker.io/rajeshrajan/image-seg-infer:mobilenet"
+          image: "docker.io/rajeshrajan/flask-addition-app1:latest"
           ports:
             - containerPort: 9001
               protocol: TCP
