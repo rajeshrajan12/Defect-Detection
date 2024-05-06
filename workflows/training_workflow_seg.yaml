@@ -26,13 +26,13 @@ spec:
         artifacts:
           - name: image-data
             path: /app/data/
-      outputs:
-        artifacts:
-          - name: image-model-tutorial
-            path: /app/model
-            globalName: image-model-tutorial
-            archive:
-              none: {}
+      # outputs:
+      #   artifacts:
+      #     - name: image-model-tutorial
+      #       path: /app/model
+      #       globalName: image-model-tutorial
+      #       archive:
+      #         none: {}
       container:
         image: "docker.io/rajeshrajan/image-seg-train:0.0.2"
         imagePullPolicy: Always
