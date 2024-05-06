@@ -14,8 +14,8 @@ metadata:
     executables.ai.sap.com/id: "image-seg-train-tutorial"
     ai.sap.com/version: "1.0.0"
 spec:
-  imagePullSecrets:
-    - name: docker-registry-secret
+  # imagePullSecrets:
+  #   - name: docker-registry-secret
   entrypoint: image-seg-sk-training
   templates:
     - name: image-seg-sk-training
