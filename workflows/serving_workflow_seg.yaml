@@ -27,8 +27,8 @@ spec:
         ai.sap.com/resourcePlan: starter
     spec: |
       predictor:
-        imagePullSecrets:
-          - name: docker-registry-secret
+        # imagePullSecrets:
+        #   - name: docker-registry-secret
         minReplicas: 1
         maxReplicas: 5
         # containers:
